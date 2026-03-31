@@ -1,0 +1,13 @@
+### Get all pokemons
+GET http://127.0.0.1:3000/api
+Content-Type: application/json
+
+###
+
+### Get pokemon by ID (Bulbasaur)
+GET http://127.0.0.1:3000/api/pokemons/1
+
+###
+
+### Get non-existing pokemon
+GET http://127.0.0.1:3000/api/pokemons/999
